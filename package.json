@@ -4,6 +4,15 @@
     "director": "^1.2.0",
     "vue": "^2.1.8",
     "todomvc-common": "^1.0.1",
-    "todomvc-app-css": "^2.0.0"
+    "todomvc-app-css": "^2.0.0",
+    "@vue/cli-service": "4.5.4",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "execa": "4.0.3"
+  },
+  "scripts": {
+    "deploy": "node scripts/gh-pages-deploy.js",
+    "build": "vue-cli-service build"
   }
 }
